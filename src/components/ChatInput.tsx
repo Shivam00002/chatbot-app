@@ -35,7 +35,7 @@ const ChatInput: React.FC<ChatInputProps> = ({
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onFocus={() => setShowDropdown(true)}
-          className="flex-1 p-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="flex-1 p-2  rounded-md border-gray-300 "
           placeholder="Type a message..."
         />
         {showDropdown && (
@@ -53,7 +53,7 @@ const ChatInput: React.FC<ChatInputProps> = ({
         )}
         <button
           type="submit"
-          className="px-4 py-2 bg-blue-500 text-white rounded-r-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="px-4 py-2 bg-[#10B09C] hover:bg-[#0860A2] rounded-md text-white  "
         >
           Send
         </button>

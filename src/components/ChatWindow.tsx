@@ -12,7 +12,7 @@ interface ChatWindowProps {
 
 const ChatWindow: React.FC<ChatWindowProps> = ({ messages, isTyping }) => {
   return (
-    <div className="flex-1 overflow-y-auto p-4 bg-gray-100">
+    <div className="flex-1 overflow-y-auto p-4 bg-white">
       {messages.map((message, index) => (
         <div
           key={index}
@@ -21,8 +21,8 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ messages, isTyping }) => {
           <span
             className={`inline-block p-2 rounded-lg ${
               message.isUser
-                ? "bg-blue-500 text-white"
-                : "bg-white text-gray-800"
+                ? "bg-[#EFF4FF] text-[#000000]"
+                : "bg-[#F3F3F3] text-gray-800"
             }`}
           >
             {message.text}

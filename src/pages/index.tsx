@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 
       <main>
         <h1 className="md:text-3xl text-2xl font-bold mb-4 text-center">
-          Welcome to our Chatbot 🤖
+         Chatbot 🤖
         </h1>
         <Chatbot />
       </main>
