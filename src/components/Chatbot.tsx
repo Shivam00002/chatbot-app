@@ -21,6 +21,7 @@ const Chatbot: React.FC = () => {
     }, 2000);
   };
 
+
   return (
     <div className="flex flex-col h-[500px] w-[350px] border border-gray-300 rounded-lg overflow-hidden">
       <ChatWindow messages={messages} isTyping={isTyping} />
