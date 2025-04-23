@@ -5,6 +5,7 @@ interface ChatInputProps {
   predefinedQuestions: string[];
 }
 
+
 const ChatInput: React.FC<ChatInputProps> = ({
   onSendMessage,
   predefinedQuestions,
