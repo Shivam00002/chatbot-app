@@ -10,6 +10,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      
       <main>
         <h1 className="md:text-3xl text-2xl font-bold mb-4 text-center">
          Chatbot 🤖
